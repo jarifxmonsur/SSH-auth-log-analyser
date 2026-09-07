@@ -1,6 +1,5 @@
 # SSH Auth Log Analyser
 
-#### Video Demo: https://youtu.be/ObfHfl2csfk
 
 #### WHAT IT DOES
 
