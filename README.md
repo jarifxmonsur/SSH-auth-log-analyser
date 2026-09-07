@@ -77,4 +77,4 @@ clean warning instead of throwing mathematical errors or printing corrupted, emp
 
 
 ## Final Message:
-Thank you for reading the README. Feel free to play with my analyser and provide me with suggestions. This is my final project for CS50P, my very own Auth Log Analyser.
+Thank you for reading the README. Feel free to play with my analyser and provide me with suggestions.
