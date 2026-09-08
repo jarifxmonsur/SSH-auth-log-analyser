@@ -70,7 +70,7 @@ tracking events across a New Year's Eve boundary will calculate intervals incorr
 Format Dependency: The parser is strictly tuned to OpenSSH-style log signatures. It cannot natively interpret other log variants like Nginx web traffic, Apache access text, or Windows Event XML formatting.
 
 
-## Error Handlingd
+## Error Handling
 Rather than crashing when encountering unexpected inputs, the tool uses defensive exceptions. If the specified log file is missing, it catches the `FileNotFoundError`and terminates cleanly with an
 explicit error message. If the log file exists but is completely empty or contains only non-SSH noise (like cron or sudo events), the script safely catches the empty data pooland terminates with a
 clean warning instead of throwing mathematical errors or printing corrupted, empty tables. Unrecognised lines inside a valid log are silently skipped rather than interrupting the parsing loop.
